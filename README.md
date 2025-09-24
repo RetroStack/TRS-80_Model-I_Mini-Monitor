@@ -1,6 +1,6 @@
 # TRS-80 Model 1 Mini Monitor
 
-A 3D-printable, 65%-scale enclosure that restyles a modern 8" Eyoyo LCD into a faithful mini version of the original TRS-80 Model I monitor—complete with front “fake” knobs, a front power LED, hidden IR window option, and mounting points for the stock speakers and main PCB. Everything is designed to reuse the donor monitor’s electronics and screws wherever possible. MIT-licensed and open to hack, tweak, and remix.
+A 3D-printable, 65%-scale enclosure that restyles a modern 8" Eyoyo LCD into a faithful mini version of the original TRS-80 Model I monitor, complete with front “fake” knobs, a front power LED, hidden IR window option, and mounting points for the stock speakers and main PCB. Everything is designed to reuse the donor monitor’s electronics wherever possible. Released under the MIT-license.
 
 |![Front Case](/Images/Monitor_Front.png) | ![Back Case](/Images/Monitor_Back.png) |
 |-------------------------------------|-------------------------------------|
@@ -15,16 +15,16 @@ Find the most up-to-date printable parts in the **`/Latest`** folder:
   - [`M_Front.stl`](/Latest/M_Front.stl) — front shell  
   - [`M_Back.stl`](/Latest/M_Back.stl) — back shell
 - **Hardware**
-  - [`Knob.stl`](/Latest/Knob.stl) — decorative front-panel knobs (print **2** total)  
-  - [`Tab.stl`](/Latest/Tab.stl) — universal retaining tab used for screen & speakers (print **6×** total)
+  - [`Knob.stl`](/Latest/Knob.stl) — decorative front-panel knobs (print **2x** total)  
+  - [`Tab.stl`](/Latest/Tab.stl) — universal retaining tab used for screen, speakers & buttons (print **6×** total)
 - **Finishing Aid (Optional)**
-  - [`Spray_Cover_Optional.stl`](/Latest/Spray_Cover_Optional.stl) — paint mask that snaps in to protect the black center while you spray the silver surrounding
+  - [`Spray_Cover_Optional.stl`](/Latest/Spray_Cover_Optional.stl) — paint mask that snaps in to protect the black center while spraying the silver surrounding
 
 
 ### Donor Display
 
 This project is designed around a readily available 8" Eyoyo monitor (example: [Eyoyo 8" 1024×768 Model EM08F](https://www.amazon.com/dp/B0BG77R6ST)).  
-Transplant the LCD panel, main PCB, top button/IR board, and stereo speakers into the Mini Monitor enclosure.
+Transplant the LCD panel, main PCB, button/IR board, and stereo speakers into the Mini Monitor enclosure.
 
 ### Implementation
 
@@ -33,7 +33,7 @@ Transplant the LCD panel, main PCB, top button/IR board, and stereo speakers int
 - A front 5mm LED replaces the original mechanical power button.
 - Optional IR receiver tunnel on the bottom allows remote use without spoiling the front aesthetic.
 
-All mechanical parts are provided as STL files suitable for FDM printing. The design uses snap-fit geometry and tabs to secure the LCD and speakers. The back shell provides mounting points for the main PCB and a clean, top-back control area so modern buttons remain accessible yet hidden. Make sure to use the plastic buttons provided in the original case.
+All mechanical parts are provided as STL files suitable for FDM printing. The design uses snap-fit and tabs to secure the LCD and speakers. The back shell provides mounting points for the main PCB and a control area so modern function buttons remain accessible yet hidden. Make sure to use the plastic buttons provided in the original case and don't throw them out with the donor case.
 
 ### Assembly Guide
 
@@ -44,7 +44,7 @@ For the following steps, keep the donor LCD’s foil cable safe from kinks and e
    - Optional: `Spray_Cover_Optional.stl` to simplify paint spraying
 2. **Paint**
    - Apply a black primer spray that also functions as the base color.
-   - The original aesthetic is **silver body** with a **black center**. Use `Spray_Cover_Optional.stl` as a paint mask that locks into the bezel to shield the black area while spraying the silver surrounding. 
+   - The original monitor was fully black ont he back shell. The original aesthetic for the front shell is **silver body** with a **black center**. Use `Spray_Cover_Optional.stl` as a paint mask that locks into the bezel to shield the black area while spraying the silver surrounding. 
      ![Spray cover applied](/Images/Spray_Cover_Applied.png)
    - After enough time drying, apply a layer of top-coat to protect the paint. I used a gloss top-coat, but made this thin to avoid excessive shine.
    - You might want to paint the two knobs at this point as well.
@@ -54,7 +54,7 @@ For the following steps, keep the donor LCD’s foil cable safe from kinks and e
    - Keep the foil cable relaxed—route toward the main PCB mount on the back shell.  
      ![Mount detail](/Images/Monitor_Mount.png)
 4. **Main PCB Mount**
-   - Position the donor main board on the back shell’s standoffs and secure. Verify connector clearance for HDMI/VGA/AV/BNC and power. The board is installed upside-down.
+   - The board is installed upside-down.
      ![PCB mount](/Images/PCB_Mount.png)
    - Fix the board in place using a 3mm screw with 12mm length. Use the first holes on the interface side. When inserting the screw, fix it with a nut on the other side. Add an additional nut on top of it, leaving about a 1-2mm gap. This gap is provided as the pins peaking through the PCB sometimes are longer and this will give enough clearance. Insert the screw into the case mount point and add another nut on top to fix it in place. Overall, you need 2 screws with a total of 6 nuts, three for each side.
 5. **Front Power LED**
