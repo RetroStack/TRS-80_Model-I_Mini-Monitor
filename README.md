@@ -23,7 +23,7 @@ Find the most up-to-date printable parts in the **`/Latest`** folder:
 
 ### Donor Display
 
-This project is designed around a readily available 8" Eyoyo monitor (example: [Eyoyo 8" 1024×768](https://www.amazon.com/dp/B0BG77R6ST)).  
+This project is designed around a readily available 8" Eyoyo monitor (example: [Eyoyo 8" 1024×768 Model EM08F](https://www.amazon.com/dp/B0BG77R6ST)).  
 Transplant the LCD panel, main PCB, top button/IR board, and stereo speakers into the Mini Monitor enclosure.
 
 ### Implementation
